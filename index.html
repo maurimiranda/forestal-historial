@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="historialApp">
+<head>
+  <meta charset="utf-8">
+  <title>Forestal Historial</title>
+  <link rel="stylesheet" href="app/lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <div ng-controller="MainController" class="container-fluid">
+    <table class="table">
+      <thead>
+        <th>Historial</th>
+        <th>ID</th>
+        <th>Número Interno</th>
+        <th>Año</th>
+        <th>Etapa</th>
+        <th>Estabilidad Fiscal</th>
+        <th>Superficie</th>
+        <th>Densidad</th>
+        <th>Descripción</th>
+        <th>Fecha Salida</th>
+        <th>Aprobación</th>
+      </thead>
+      <tbody>
+        <tr ng-repeat="plantacion in plantaciones">
+          <td>{{plantacion.historial}}</td>
+          <td>{{plantacion.id}}</td>
+          <td>{{plantacion.numero_interno}}</td>
+          <td>{{plantacion.anio}}</td>
+          <td>{{plantacion.etapa}}</td>
+          <td>{{plantacion.estabilidad_fiscal}}</td>
+          <td>{{plantacion.sup}}</td>
+          <td>{{plantacion.densidad}}</td>
+          <td>{{plantacion.descripcion}}</td>
+          <td>{{plantacion.fecha_salida}}</td>
+          <td>{{plantacion.aprobacion}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="app/lib/jquery/jquery.min.js"></script>
+  <script src="app/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="app/lib/angular/angular.min.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>

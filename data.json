@@ -1,0 +1,28 @@
+[
+  {
+    "historial": "123384 ",
+    "id": 123384,
+    "numero_interno": "13-013-017/09",
+    "anio": 2009,
+    "etapa": null,
+    "estabilidad_fiscal": false,
+    "sup": 25.9,
+    "densidad": "833",
+    "descripcion": "Poda",
+    "fecha_salida": "2012-07-17",
+    "aprobacion": "Aprobado"
+  },
+  {
+    "historial": "123384 <- 91504",
+    "id": 91504,
+    "numero_interno": "13-013-131/05",
+    "anio": 2005,
+    "etapa": null,
+    "estabilidad_fiscal": false,
+    "sup": 27.5,
+    "densidad": "1111",
+    "descripcion": "Plantación",
+    "fecha_salida": "2008-05-01",
+    "aprobacion": "Aprobado"
+  }
+]
